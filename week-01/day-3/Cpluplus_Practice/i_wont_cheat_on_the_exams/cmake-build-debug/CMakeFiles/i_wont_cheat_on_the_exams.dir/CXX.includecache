@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/programozas/Github/repos/greenfox/levitatio/week-01/day-3/i_wont_cheat_on_the_exams/main.cpp
+iostream
+-
+string
+-
+

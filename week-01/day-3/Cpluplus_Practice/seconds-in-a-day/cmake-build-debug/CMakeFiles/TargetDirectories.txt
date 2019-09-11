@@ -1,0 +1,3 @@
+D:/programozas/Github/repos/greenfox/levitatio/week-01/day-3/seconds-in-a-day/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/programozas/Github/repos/greenfox/levitatio/week-01/day-3/seconds-in-a-day/cmake-build-debug/CMakeFiles/seconds_in_a_day.dir
+D:/programozas/Github/repos/greenfox/levitatio/week-01/day-3/seconds-in-a-day/cmake-build-debug/CMakeFiles/edit_cache.dir

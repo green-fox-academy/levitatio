@@ -1,0 +1,3 @@
+D:/programozas/Github/repos/greenfox/levitatio/week-01/day-3/party_indicator/cmake-build-debug/CMakeFiles/party_indicator.dir
+D:/programozas/Github/repos/greenfox/levitatio/week-01/day-3/party_indicator/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/programozas/Github/repos/greenfox/levitatio/week-01/day-3/party_indicator/cmake-build-debug/CMakeFiles/rebuild_cache.dir

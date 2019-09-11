@@ -1,0 +1,3 @@
+D:/programozas/Github/repos/greenfox/levitatio/week-01/day-3/one_two_a_lot/cmake-build-debug/CMakeFiles/one_two_a_lot.dir
+D:/programozas/Github/repos/greenfox/levitatio/week-01/day-3/one_two_a_lot/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/programozas/Github/repos/greenfox/levitatio/week-01/day-3/one_two_a_lot/cmake-build-debug/CMakeFiles/rebuild_cache.dir

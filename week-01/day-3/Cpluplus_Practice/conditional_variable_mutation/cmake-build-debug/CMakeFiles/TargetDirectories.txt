@@ -1,0 +1,3 @@
+D:/programozas/Github/repos/greenfox/levitatio/week-01/day-3/conditional_variable_mutation/cmake-build-debug/CMakeFiles/conditional_variable_mutation.dir
+D:/programozas/Github/repos/greenfox/levitatio/week-01/day-3/conditional_variable_mutation/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/programozas/Github/repos/greenfox/levitatio/week-01/day-3/conditional_variable_mutation/cmake-build-debug/CMakeFiles/rebuild_cache.dir
