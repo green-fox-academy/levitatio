@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="subtr" targetName="subtr" />
+      <config projectName="increment_element" targetName="increment_element" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,7 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93d455a4-c4e9-4ce6-b882-fbe80de634ac" name="Default Changelist" comment="" />
+    <list default="true" id="e5cb96c5-5b3c-409c-8f6f-97d906f4b6f3" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,10 +22,9 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
-  <component name="ProjectId" id="1Qk3Psss8z0VjIvmNVDyylJIPuT" />
+  <component name="ProjectId" id="1QmRLCeZqD4gwhmvWS83T5IQasF" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -40,7 +39,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="subtr" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="subtr" TARGET_NAME="subtr" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="subtr" RUN_TARGET_NAME="subtr">
+    <configuration name="increment_element" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="increment_element" TARGET_NAME="increment_element" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="increment_element" RUN_TARGET_NAME="increment_element">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
