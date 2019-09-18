@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="drawingsetup" targetName="line_in_the_middle" />
+      <config projectName="drawingsetup" targetName="four_rectangles" />
+      <config projectName="drawingsetup" targetName="center_box_function" />
+      <config projectName="drawingsetup" targetName="rainbow_box_function" />
+      <config projectName="drawingsetup" targetName="colored_box" />
+      <config projectName="drawingsetup" targetName="diagonals" />
+      <config projectName="drawingsetup" targetName="horizontal_lines" />
+      <config projectName="drawingsetup" targetName="position_square" />
+      <config projectName="drawingsetup" targetName="starry_night" />
+      <config projectName="drawingsetup" targetName="connect_the_dots" />
+      <config projectName="drawingsetup" targetName="draw" />
+      <config projectName="drawingsetup" targetName="go_to_center" />
+      <config projectName="drawingsetup" targetName="function_to_center" />
+      <config projectName="drawingsetup" targetName="centered_square" />
+      <config projectName="drawingsetup" targetName="checkerboard" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5f942dc4-b7f0-47cb-ad96-28d5fa7277ff" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ProjectId" id="1R0GnK42k62KrwvmCiMPyzoYNvS" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="CMake Application.starry_night">
+    <configuration name="center_box_function" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="drawingsetup" TARGET_NAME="center_box_function" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="drawingsetup" RUN_TARGET_NAME="center_box_function">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="centered_square" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="drawingsetup" TARGET_NAME="centered_square" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="drawingsetup" RUN_TARGET_NAME="centered_square">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="checkerboard" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="drawingsetup" TARGET_NAME="checkerboard" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="drawingsetup" RUN_TARGET_NAME="checkerboard">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="colored_box" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="drawingsetup" TARGET_NAME="colored_box" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="drawingsetup" RUN_TARGET_NAME="colored_box">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="connect_the_dots" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="drawingsetup" TARGET_NAME="connect_the_dots" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="drawingsetup" RUN_TARGET_NAME="connect_the_dots">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="diagonals" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="drawingsetup" TARGET_NAME="diagonals" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="drawingsetup" RUN_TARGET_NAME="diagonals">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="draw" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="drawingsetup" TARGET_NAME="draw" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="drawingsetup" RUN_TARGET_NAME="draw">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="four_rectangles" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="drawingsetup" TARGET_NAME="four_rectangles" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="drawingsetup" RUN_TARGET_NAME="four_rectangles">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="function_to_center" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="drawingsetup" TARGET_NAME="function_to_center" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="drawingsetup" RUN_TARGET_NAME="function_to_center">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="go_to_center" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="drawingsetup" TARGET_NAME="go_to_center" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="drawingsetup" RUN_TARGET_NAME="go_to_center">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="horizontal_lines" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="drawingsetup" TARGET_NAME="horizontal_lines" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="drawingsetup" RUN_TARGET_NAME="horizontal_lines">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="line_in_the_middle" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="drawingsetup" TARGET_NAME="line_in_the_middle" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="drawingsetup" RUN_TARGET_NAME="line_in_the_middle">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="position_square" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="drawingsetup" TARGET_NAME="position_square" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="drawingsetup" RUN_TARGET_NAME="position_square">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rainbow_box_function" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="drawingsetup" TARGET_NAME="rainbow_box_function" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="drawingsetup" RUN_TARGET_NAME="rainbow_box_function">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="starry_night" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="drawingsetup" TARGET_NAME="starry_night" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="drawingsetup" RUN_TARGET_NAME="starry_night">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.center_box_function" />
+      <item itemvalue="CMake Application.centered_square" />
+      <item itemvalue="CMake Application.checkerboard" />
+      <item itemvalue="CMake Application.colored_box" />
+      <item itemvalue="CMake Application.connect_the_dots" />
+      <item itemvalue="CMake Application.diagonals" />
+      <item itemvalue="CMake Application.draw" />
+      <item itemvalue="CMake Application.four_rectangles" />
+      <item itemvalue="CMake Application.function_to_center" />
+      <item itemvalue="CMake Application.go_to_center" />
+      <item itemvalue="CMake Application.horizontal_lines" />
+      <item itemvalue="CMake Application.line_in_the_middle" />
+      <item itemvalue="CMake Application.position_square" />
+      <item itemvalue="CMake Application.rainbow_box_function" />
+      <item itemvalue="CMake Application.starry_night" />
+    </list>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/four_rectangles.cpp</url>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/function_to_center.cpp</url>
+          <line>8</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
