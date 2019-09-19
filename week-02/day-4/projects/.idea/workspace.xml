@@ -2,7 +2,9 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
+      <config projectName="projects" targetName="hexagon" />
       <config projectName="projects" targetName="draw" />
+      <config projectName="projects" targetName="triangles" />
       <config projectName="projects" targetName="repeat_line_play" />
       <config projectName="projects" targetName="envelope_star" />
       <config projectName="projects" targetName="line_play" />
@@ -41,13 +43,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="CMake Application.envelope_star">
+  <component name="RunManager" selected="CMake Application.hexagon">
     <configuration name="draw" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="projects" TARGET_NAME="draw" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="projects" RUN_TARGET_NAME="draw">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="envelope_star" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="projects" TARGET_NAME="envelope_star" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="projects" RUN_TARGET_NAME="envelope_star">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="hexagon" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="projects" TARGET_NAME="hexagon" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="projects" RUN_TARGET_NAME="hexagon">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -62,11 +69,34 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="triangles" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="projects" TARGET_NAME="triangles" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="projects" RUN_TARGET_NAME="triangles">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="CMake Application.draw" />
       <item itemvalue="CMake Application.envelope_star" />
+      <item itemvalue="CMake Application.hexagon" />
       <item itemvalue="CMake Application.line_play" />
       <item itemvalue="CMake Application.repeat_line_play" />
+      <item itemvalue="CMake Application.triangles" />
     </list>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/hexagon.cpp</url>
+          <line>31</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/hexagon.cpp</url>
+          <line>42</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

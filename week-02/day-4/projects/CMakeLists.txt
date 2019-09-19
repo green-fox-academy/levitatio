@@ -6,7 +6,8 @@ set(CMAKE_CXX_STANDARD 14)
 
 set(SDL2_ROOT_PATH d:/programok/SDL2_windows)
 
-set(EXECUTABLES "draw;line_play;envelope_star;repeat_line_play")
+set(EXECUTABLES "draw;line_play;envelope_star;repeat_line_play;\
+triangles;hexagon")
 set(CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/cmake)
 
 IF(WIN32)
