@@ -1,47 +1,74 @@
 #include <iostream>
 #include <string>
+#include <vector>
 
 using namespace std;
 
-void palindromeSearching (string baseStr, string palnindromes[]);
-bool isPalindromeCore (string);
-int palindromeCoreIndexSearching (string);
+bool  isPalindrome (const string&);
+vector<string> searchPalindromes (const string &subString);
+void printPalindromes (const vector<string> &palindromes, const string &originString);
 
 
 
 int main() {
 
-    string palindromes[100];
-    std::cout << "Hello, World!" << std::endl;
+    string sourceString1 = "dog goat dad duck doodle never";
+    string sourceString2 = "apple";
+    string sourceString3 = "racecar";
+    string sourceString4 = "";
+
+    /*printPalindromes(searchPalindromes(sourceString1), sourceString1);
+    printPalindromes(searchPalindromes(sourceString2), sourceString2);*/
+    printPalindromes(searchPalindromes(sourceString3), sourceString3);
+    printPalindromes(searchPalindromes(sourceString4), sourceString4);
     return 0;
 }
 
-void palindromeSearching (string baseStr, string palnindromes[])
+vector<string> searchPalindromes (const string &sourceString)
 {
+    vector<string> result;
 
-    int lengthOfBaseStr = baseStr.length();
-    for (int i = 0; i < lengthOfBaseStr - 2; ++i) {
-        if (baseStr[i] != baseStr [i + 2]) {
-            continue;                               //can not be a palindrome
-        }else {
-            for (int j = 0; j < ; ++j) {
-
+    for (int i = 0; i < sourceString.size(); i++) {
+        int startIndexOfSubString = i;
+        for (int j = 1; i + j <= sourceString.size(); j ++) {
+                int lengthOfSubstring = j;
+                //substr() is function from STL
+                string observedSubstring = sourceString.substr(startIndexOfSubString, lengthOfSubstring);
+                if (isPalindrome(observedSubstring)) {
+                    result.push_back(observedSubstring);
+                }
             }
-
         }
-
-        bool isPalindrome = true;
-        int index = i;
-        while (isPalindrome && index < (lengthOfBaseStr -i)/2) {
-            if (baseStr[index] != baseStr[lengthOfBaseStr - (index + 1)]) {
-                isPalindrome = false;
-            }
-            index++;
-        }
-    }
+    return result;
 }
 
-int palindromeCoreIndexSearching (string sourceString)
+bool isPalindrome (const string &subString)
 {
+    int sizeOfHalfSubString;
+    if (subString.size() < 3) {
+        return false;
+    }
+    if (subString.size() % 2){
+        sizeOfHalfSubString = (subString.size() - 1) / 2;
+    } else {
+        sizeOfHalfSubString = subString.size() / 2;
+    }
 
+    for (int i = 0; i < sizeOfHalfSubString; i++) {
+        if (subString.at(i) != subString.at(subString.size() - 1 - i)){
+            return false;
+        }
+    }
+    return true;
+}
+void printPalindromes (const vector<string> &palindromes, const string &originString)
+{
+    cout << "palindromes in \"" << originString << "\": [";
+    for (int i = 0; i < palindromes.size(); ++i) {
+        cout << "\"" <<palindromes.at(i) << "\"";
+        if (i != palindromes.size() - 1) {
+            cout << ", ";
+        }
+    }
+    cout << "]"<<endl;
 }
