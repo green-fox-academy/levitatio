@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="decrypt_reversed_lines" targetName="decrypt_reversed_lines" />
+      <config projectName="Logs" targetName="Logs" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,7 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a42b4f47-666b-42d4-b14a-b2445ed75ea6" name="Default Changelist" comment="" />
+    <list default="true" id="61521d4f-2511-492d-a877-40a31919d017" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +22,7 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
-  <component name="ProjectId" id="1RHy3h5R0zIdWgrncwVgHukVZwY" />
+  <component name="ProjectId" id="1RHzjvd7eTvALVDlagCLzhUJdZB" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
@@ -39,7 +39,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="decrypt_reversed_lines" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="decrypt_reversed_lines" TARGET_NAME="decrypt_reversed_lines" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="decrypt_reversed_lines" RUN_TARGET_NAME="decrypt_reversed_lines">
+    <configuration name="Logs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Logs" TARGET_NAME="Logs" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Logs" RUN_TARGET_NAME="Logs">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
