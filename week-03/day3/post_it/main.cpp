@@ -7,6 +7,6 @@ int main() {
     PostIt second ("pink","black","Awesome");
     PostIt third("yellow", "green", "Superb!");
 
-    
+
     return 0;
 }
