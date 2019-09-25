@@ -3,9 +3,9 @@
 #include <string>
 
 class PostIt {
-    std::string backgroundColor;
-    std::string textColor;
-    std::string text;
+    std::string _backgroundColor;
+    std::string _textColor;
+    std::string _text;
 
 public:
     PostIt(const std::string&, const std::string&, const std::string&);

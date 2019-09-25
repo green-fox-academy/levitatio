@@ -1,27 +1,27 @@
 #include "PostIt.h"
 
 PostIt::PostIt(const std::string &bColor, const std::string &tcolor, const std::string &str) {
-    backgroundColor = bColor;
-    textColor = tcolor;
-    text = str;
+    _backgroundColor = bColor;
+    _textColor = tcolor;
+    _text = str;
 }
 
 
 std::string PostIt::getBackgroundColor() {
-    return backgroundColor;
+    return _backgroundColor;
 }
 std::string PostIt::getTextColor() {
-    return textColor;
+    return _textColor;
 }
 std::string PostIt::getText() {
-    return text;
+    return _text;
 }
 void PostIt::setBackgroundColor(const std::string &str) {
-    backgroundColor = str;
+    _backgroundColor = str;
 }
 void PostIt::setTextColor(const std::string &str) {
-    textColor = str;
+    _textColor = str;
 }
 void PostIt::setText(const std::string &str) {
-    text = str;
+    _text = str;
 }
