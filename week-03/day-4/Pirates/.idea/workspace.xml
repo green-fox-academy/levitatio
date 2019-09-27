@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="Blog" targetName="Blog" />
+      <config projectName="Pirates" targetName="Pirates" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,7 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d26acd5-ca71-4d84-a73d-9ab711727edb" name="Default Changelist" comment="" />
+    <list default="true" id="7096428e-1254-44c2-ab53-b7433d2e842b" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +22,7 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
-  <component name="ProjectId" id="1RNGHPfsjiH3J3S3hTuF0gEJ1R9" />
+  <component name="ProjectId" id="1RNIELR4NXJx59IpeONFgyqnMZA" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
@@ -39,21 +39,10 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Blog" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Blog" TARGET_NAME="Blog" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Blog" RUN_TARGET_NAME="Blog">
+    <configuration name="Pirates" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Pirates" TARGET_NAME="Pirates" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Pirates" RUN_TARGET_NAME="Pirates">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>17</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
