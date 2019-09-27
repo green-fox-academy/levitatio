@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
+      <config projectName="fractal_generator" targetName="Tree" />
       <config projectName="fractal_generator" targetName="SquareFractal" />
       <config projectName="fractal_generator" targetName="draw" />
     </generated>
@@ -26,6 +27,7 @@
   <component name="ProjectId" id="1RPnsVyKg21PnyFDuM3cyISTQqz" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../week-01/day-5/palindrome_searching" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -39,8 +41,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="CMake Application.SquareFractal">
+  <component name="RunManager" selected="CMake Application.Tree">
     <configuration name="SquareFractal" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="fractal_generator" TARGET_NAME="SquareFractal" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="fractal_generator" RUN_TARGET_NAME="SquareFractal">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tree" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="fractal_generator" TARGET_NAME="Tree" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="fractal_generator" RUN_TARGET_NAME="Tree">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -53,6 +60,18 @@
     <list>
       <item itemvalue="CMake Application.draw" />
       <item itemvalue="CMake Application.SquareFractal" />
+      <item itemvalue="CMake Application.Tree" />
     </list>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Tree.cpp</url>
+          <line>19</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -2,6 +2,7 @@
 #include <SDL.h>
 #include "draw.h"
 #include "SquareFractal.h"
+#include "Tree.h"
 
 //Starts up SDL and creates window
 bool init();
@@ -78,15 +79,29 @@ int main(int argc, char *args[]) {
         }
 
         //Clear screen
-        SDL_SetRenderDrawColor(gRenderer, 0xFE, 0xFB, 0x00, 0xFF);
+        SDL_SetRenderDrawColor(gRenderer, 0x00, 0x00, 0x00, 0xFF);
         SDL_RenderClear(gRenderer);
 
+        //MY STUFF
+        /*Stuff for Tree*/
         int depth = 0;
+        Tree firstTree(gRenderer);
+
+        firstTree.drawTree();
+
+
+
+
+
+        /*Stuff for SquareFractal
+        /*int depth = 0;
         SquareFractal firstFractal(gRenderer);
         std::cout << "Depth: " << std::endl;
         std::cin >> depth;
-        firstFractal.drawSquares(0,0,4,300);
+        firstFractal.drawSquares(0,0,4,300); */
 
+
+        //END OF MY STUFF
         //draw(gRenderer);
 
         //Update screen
