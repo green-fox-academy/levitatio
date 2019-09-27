@@ -4,10 +4,9 @@
 
 using namespace std;
 
-bool  isPalindrome (const string&);
-vector<string> searchPalindromes (const string &subString);
-void printPalindromes (const vector<string> &palindromes, const string &originString);
-
+bool  isPalindrome (const string& str);
+vector<string> searchPalindromes (const string& subString);
+void printPalindromes (const vector<string>& palindromes, const string& originString);
 
 
 int main() {
@@ -17,14 +16,14 @@ int main() {
     string sourceString3 = "racecar";
     string sourceString4 = "";
 
-    /*printPalindromes(searchPalindromes(sourceString1), sourceString1);
-    printPalindromes(searchPalindromes(sourceString2), sourceString2);*/
+    printPalindromes(searchPalindromes(sourceString1), sourceString1);
+    printPalindromes(searchPalindromes(sourceString2), sourceString2);
     printPalindromes(searchPalindromes(sourceString3), sourceString3);
     printPalindromes(searchPalindromes(sourceString4), sourceString4);
     return 0;
 }
 
-vector<string> searchPalindromes (const string &sourceString)
+vector<string> searchPalindromes (const string& sourceString)
 {
     vector<string> result;
 
@@ -42,16 +41,16 @@ vector<string> searchPalindromes (const string &sourceString)
     return result;
 }
 
-bool isPalindrome (const string &subString)
+bool isPalindrome (const string& subString)
 {
     int sizeOfHalfSubString;
     if (subString.size() < 3) {
         return false;
     }
-    if (subString.size() % 2){
-        sizeOfHalfSubString = (subString.size() - 1) / 2;
-    } else {
+    if (subString.size() % 2 == 0){
         sizeOfHalfSubString = subString.size() / 2;
+    } else {
+        sizeOfHalfSubString = (subString.size() - 1) / 2;
     }
 
     for (int i = 0; i < sizeOfHalfSubString; i++) {
@@ -61,7 +60,7 @@ bool isPalindrome (const string &subString)
     }
     return true;
 }
-void printPalindromes (const vector<string> &palindromes, const string &originString)
+void printPalindromes (const vector<string>& palindromes, const string& originString)
 {
     cout << "palindromes in \"" << originString << "\": [";
     for (int i = 0; i < palindromes.size(); ++i) {
